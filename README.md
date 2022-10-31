@@ -5,11 +5,11 @@ This dataset consists of reviews about wine from social media—Instagram. Revie
 https://www.kaggle.com/datasets/muhammadyasirsaleem/instagram-dataset-for-text-classifcation
 
 ##
-We implemented the common R packages we learn from course: dplyr, ggplot2 and tidytext. Except these, the following packages are useful to conduct NLP research: 
-•	stringr: String tool.  
+We implemented the common R packages we learn from course: dplyr, ggplot2 and tidytext. Except these, the following packages are useful to conduct text mining:   
+•	stringr: String toolset.  
 •	reshape2: Transform data between wide and long formats.  
-•	tidyr: provides gather(), separate() and spread() functions for tidying the messy data.  
+•	tidyr: Provides gather(), separate() and spread() functions for tidying the messy data.  
 •	wordcloud: A visual representation of text data.  
 •	RColorBrewer: Provides colour schemes for maps (and other graphics).  
-•	hunspell : a high-level wrapper for finding spelling errors within a text document.  
+•	hunspell : A high-level wrapper for finding spelling errors within a text document.  
 •	SnowballC: Snowball stemmer based on the C 'libstemmer' UTF-8 Library.  
