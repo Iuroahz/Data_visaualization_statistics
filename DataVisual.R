@@ -57,8 +57,6 @@ text_df <- text_df %>% anti_join(stop_words, "word")  # return all rows from sto
 #View(text_df %>% count(word, sort = TRUE))
 
 # Word Frequency Statistics & Visualization
-View(text_df %>% count(word, sort = TRUE))
-
 png(filename = "plot_01_word_frequency.png",
     res = 300,  # image resolution
     width = 1600, 
