@@ -132,7 +132,7 @@ text_df %>%
 
 dev.off()              
 
-# blend_tf_idf f_table %>% bind_tf_idf(term = words,document = id,n = n) -> tf_idf_table
+# blend_tf_idf 
 term_frequency_review <- text_df %>% count(word, id_description, sort = TRUE)
 term_frequency_review$total_words <- as.numeric(term_frequency_review %>% summarize(total = sum(n)))
 term_frequency_review$document <- as.character('Description')
