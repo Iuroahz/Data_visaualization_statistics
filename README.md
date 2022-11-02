@@ -2,7 +2,7 @@
 ## What is Text Mining?
 Text mining is the process of transforming unstructured text into structured data for easy analysis. Text mining uses natural language processing (NLP), allowing machines to understand the human language and process it automatically.
 ## Dataset information
-This dataset consists of reviews about wine from social media—Instagram. Reviews include country, title, description text, points, price, region, variety and taster information. Due to the large amount of data collected in this database(around 130k objects) in CSV format.,therefore, the first 5000 rows of data were extracted as the data of this project. 
+This dataset consists of reviews about wine from social media—Instagram. Reviews include country, title, description text, points, price, region, variety and taster information. Due to the large amount of data collected in this database(around 130k objects) in CSV format, the first 5000 rows of data were extracted as the data of this project. 
 
 https://www.kaggle.com/datasets/muhammadyasirsaleem/instagram-dataset-for-text-classifcation
 
